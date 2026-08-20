@@ -2,6 +2,7 @@
 #define CVPLOT_COLOR_H
 
 #include <string>
+#include <cstdint>
 
 namespace cvplot {
 

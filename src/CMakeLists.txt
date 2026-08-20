@@ -1,5 +1,6 @@
 FIND_PACKAGE( OpenCV REQUIRED ) 
 FIND_PACKAGE ( Threads REQUIRED )
+include_directories(${OpenCV_INCLUDE_DIRS})
 
 aux_source_directory(. DIR_SRCS)
 add_executable(GA ${DIR_SRCS})
